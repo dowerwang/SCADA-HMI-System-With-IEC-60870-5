@@ -1,0 +1,35 @@
+gzip -v -9
+
+-9 tells GZIP to attempt the highest possible levels of compression, which with 7 bit ASCII "text" can produce up to 90%+ compression.
+
+so your example of:
+
+gzip -v outputfile.sql
+
+would reap far better disk space economies if you used:
+
+gzip -v -9 outputfile.sql
+
+but of course you will have a higher CPU load with the additional work required to gain the highest possible levels of compression GZIP can produce.
+
+if CPU load is an issue, try lower levels of compression, test from -4 to -7 for example.
+
+The nice thing about this is that GZIP doesn't need any additional CLI options / arguments to be able to decompress a higher compression ratio .gz file, so your example of :
+
+gunzip -v outputfile.sql.gz
+
+will still work a treat, as GZIP figures it all out without having to be told gunzip -v -9 for example.
+
+bz2 will give you even higher compression with 7 and 8 bit ASCII, but bz2 is not always on every box you might need to restore your .gz files to.
+
+Then again GZIP may not be on all systems either.
+
+A note for the safety nazi's among you, if you're ultra paranoid but still want to compress your MySQL dbdumps, consider using standard Unix "compress" - it's on 100% of the available Unix and Unix like OS's, or GNU/Linux distributions for example, and although it's compression is not as good as GZIP, or BZ2, it is compatible accross all Unix platforms. It can even survive a little endian to big endian flip, from say x86 to PPC, without issue.
+
+One wonders why dbdump doesn't have the capability to compress the output - can someone ( I don't have time ) perhaps write an additional "feature" for dbdump so you and do a "dbdump -v -z -9 > bigdbfile.gz and save a few steps ( did I really just say that? what am I thinking - pipe is your friend - tee bar's are god! ).
+
+Enjoy.
+
+Cheers,
+
+Dez

@@ -1,0 +1,6 @@
+wmic path Win32_PerfFormattedData_PerfProc_Process get Name,PercentProcessorTime | findstr /i /c:chrome
+
+
+running cek
+TASKLIST /v /fi "STATUS eq running"
+TASKLIST /v /fi "STATUS eq Not Reponding"

@@ -1,0 +1,110 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/bar-chart (2).png</file>
+        <file>img/bar-chart.png</file>
+        <file>img/brake-system-warning (1).png</file>
+        <file>img/brake-system-warning.png</file>
+        <file>img/car-battery (4).png</file>
+        <file>img/car-battery.png</file>
+        <file>img/download (3).png</file>
+        <file>img/download.png</file>
+        <file>img/hydro.png</file>
+        <file>img/LEN.png</file>
+        <file>img/oie_PlRerqHzvvK4 (1).png</file>
+        <file>img/repairing-service (2).png</file>
+        <file>img/repairing-service.png</file>
+        <file>img/rounded-plug (2).png</file>
+        <file>img/rounded-plug.png</file>
+        <file>img/signal (2).png</file>
+        <file>img/signal.png</file>
+        <file>img/solar-battery (5).png</file>
+        <file>img/solar-battery.png</file>
+        <file>img/water-drop (3).png</file>
+        <file>img/water-drop.png</file>
+        <file>img/weighing-scale (2).png</file>
+        <file>img/weighing-scale.png</file>
+        <file>img/question.png</file>
+        <file>img/search-file.png</file>
+        <file>img/man-and-right-arrow-symbol (1).png</file>
+        <file>img/man-and-right-arrow-symbol.png</file>
+        <file>img/search-file (2).png</file>
+        <file>img/question (2).png</file>
+        <file>img/solarPower.png</file>
+        <file>img/icon (1).png</file>
+        <file>img/icon.png</file>
+        <file>img/nokoff.png</file>
+        <file>img/nok.png</file>
+        <file>img/ok.png</file>
+        <file>img/invalidCB.png</file>
+        <file>img/offlineCB.png</file>
+        <file>img/closeCB.png</file>
+        <file>img/openCB.png</file>
+        <file>img/event-date-and-time-symbol (1).png</file>
+        <file>img/event-date-and-time-symbol.png</file>
+        <file>img/sun.png</file>
+        <file>img/alarmlist.png</file>
+        <file>img/battery.png</file>
+        <file>img/load.png</file>
+        <file>img/network.png</file>
+        <file>img/overview.png</file>
+        <file>img/plts.png</file>
+        <file>img/simbol.png</file>
+        <file>img/statusmeter.png</file>
+        <file>img/trending.png</file>
+        <file>img/background_2.png</file>
+        <file>img/gps.png</file>
+        <file>img/server.png</file>
+        <file>img/switch.png</file>
+        <file>img/workstation.png</file>
+        <file>img/RTU.png</file>
+        <file>img/rabbit.png</file>
+        <file>img/kanan.png</file>
+        <file>img/kiri_.png</file>
+        <file>img/topdown.png</file>
+        <file>img/Serial.png</file>
+        <file>img/offline.png</file>
+        <file>img/INVERTER R ON.png</file>
+        <file>img/INVERTER S ON.png</file>
+        <file>img/INVERTER T ON.png</file>
+        <file>img/LOAD ON.png</file>
+        <file>img/PLTMH ON.png</file>
+        <file>img/ControlClose.png</file>
+        <file>img/ControlInvalid.png</file>
+        <file>img/ControlOffline.png</file>
+        <file>img/ControlOpen.png</file>
+        <file>img/BUS.png</file>
+        <file>img/LeftDirect.png</file>
+        <file>img/RightDirect.png</file>
+        <file>img/Blue.png</file>
+        <file>img/PvBlock.png</file>
+        <file>img/Red.png</file>
+        <file>img/Yellow.png</file>
+        <file>img/DirectNormal.png</file>
+        <file>img/PLTS ON.png</file>
+        <file>img/MainInverter.png</file>
+        <file>img/sun gif.gif</file>
+        <file>img/inverteron.png</file>
+        <file>img/MainInverterOn.png</file>
+        <file>img/InvalidCBCLOSE.png</file>
+        <file>img/InvalidCBOPEN.png</file>
+        <file>img/invalidClose.png</file>
+        <file>img/invalidOpen.png</file>
+        <file>img/protocol.png</file>
+        <file>img/backgnd.png</file>
+        <file>img/ControlQuestion.png</file>
+        <file>img/nokQuestion.png</file>
+        <file>img/BatteryOn.png</file>
+        <file>img/background.png</file>
+        <file>img/kanan_kiri.png</file>
+        <file>img/kanan_kiri_Switch.png</file>
+        <file>img/kosong.png</file>
+        <file>img/MainInverter2.png</file>
+        <file>img/inverteron2.png</file>
+        <file>img/right_direct_.png</file>
+        <file>img/rcm.jpg</file>
+        <file>img/circledata.png</file>
+        <file>img/telolet.png</file>
+        <file>img/telolet2.png</file>
+        <file>img/pv.png</file>
+    </qresource>
+</RCC>

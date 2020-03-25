@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\drawing.o
+./debug\qcustomplot.o
+./debug\date.o
+./debug\qrc_image.o
+./debug\moc_mainwindow.o
+./debug\moc_drawing.o
+./debug\moc_qcustomplot.o
+./debug\moc_date.o
+);

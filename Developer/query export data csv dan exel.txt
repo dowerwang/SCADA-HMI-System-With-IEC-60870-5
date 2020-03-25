@@ -1,0 +1,11 @@
+CSV
+
+SELECT 'Reactive R', 'Reactive S', 'Reactive T'
+UNION ALL
+SELECT * from (SELECT ReactiveR, ReactiveS, ReactiveT
+    FROM mon_reactive_pltmh order by id desc) a INTO OUTFILE 'C:/IEC_104/Backup/CSV/data.csv' FIELDS TERMINATED BY ',' 
+	 ENCLOSED BY '"' LINES TERMINATED BY '\n';
+
+
+
+exel

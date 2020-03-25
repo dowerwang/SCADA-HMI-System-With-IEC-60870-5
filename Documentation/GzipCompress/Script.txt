@@ -1,0 +1,9 @@
+UNCOMPRESS
+
+-gzip --uncompress < namasql.sql.gz | mysql -u root -ppustekinlen db_scada_temp2
+
+
+COMPRESS MAX
+
+-mysqldump -u root -ppustekinlen db_scada | gzip --best > namasql.sql.gz
+

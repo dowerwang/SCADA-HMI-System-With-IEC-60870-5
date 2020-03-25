@@ -1,0 +1,22 @@
+ QSettings tes("HKEY_USERS\\.DEFAULT\\HMI\\PLTMH",
+                  QSettings::NativeFormat );
+    tes.beginGroup("Status DI");
+
+    if (tes.value("DI").toInt()==0 || tes.value("DI").toInt()==3)
+    {
+        ui->History->appendPlainText("STATUS DI PLTMH IS INVALID");
+    }
+    else if (tes.value("DI").toInt()==1)
+    {
+        ui->History->appendPlainText("STATUS DI PLTMH IS OPEN");
+
+    }
+    else if (tes.value("DI").toInt()==2)
+    {
+        ui->History->appendPlainText("STATUS DI PLTMH IS CLOSE");
+    }
+    else
+    {
+        ui->History->appendPlainText("STATUS DI PLTMH IS UNKNOWN");
+    }
+    tes.endGroup();

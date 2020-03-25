@@ -1,0 +1,3 @@
+repair and optimize
+
+mysqlcheck --auto-repair -o --databases db_scada db_scada_temp -u root -ppustekinlen
